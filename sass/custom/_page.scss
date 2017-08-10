@@ -14,6 +14,27 @@ body{
 		font-weight: lighter;
 		text-decoration: none;
 		letter-spacing: 4px;
+		position: relative;
+		color: $color__background_body;
+
+		&:after{
+			content: '';
+			display: block;
+			//background-color: red;
+			width: 350px;
+			height: 100px;
+			position: absolute;
+			top: -12px;
+			left: -29px;
+			background-image: url('img/podofski_logo.png');
+			background-repeat: no-repeat;
+			background-size: 325px;
+		}
+
+		&:hover:after{
+			background-image: url('img/podofski_logo_hover.png');
+		}
+
 	}
 }
 
@@ -28,7 +49,7 @@ body{
 
 .post{
 	margin: 20px 0 120px 5px;
-	border-left: 6px solid $color__highlight;
+	border-left: 7px solid $color__highlight;
 	padding: 5px 0 0 30px;
 	position: relative;
 	width: 800px;
@@ -76,7 +97,7 @@ body{
 	}
 
 	.entry-image img{
-		border: 6px solid $color__highlight;
+		border: 7px solid $color__highlight;
 		width: 255px;
 		float: right;
 		margin-top: -86px;
