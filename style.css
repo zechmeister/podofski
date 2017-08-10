@@ -999,7 +999,7 @@ body {
   margin: -10px 0 30px -15px;
 }
 /* line 44, sass/custom/_page.scss */
-#site-navigation .menu-item {
+#site-navigation li {
   margin-right: 10px;
   text-transform: uppercase;
 }
