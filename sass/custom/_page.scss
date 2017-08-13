@@ -48,7 +48,7 @@ body{
 	border-left: 7px solid $color__highlight;
 	padding: 5px 0 0 30px;
 	position: relative;
-	width: 800px;
+	width: 700px;
 	//height: 250px;
 	@include clearfix;
 
@@ -96,7 +96,7 @@ body{
 		border: 7px solid $color__highlight;
 		width: 255px;
 		float: right;
-		margin: -86px 0 30px 30px;
+		margin: -86px 0 15px 30px;
 	}
 
 	.entry-footer .cat-links a{
