@@ -26,6 +26,12 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<div class="entry-image">
+			<?php 
+				the_post_thumbnail();
+			?>
+		</div>
+		
 		<?php
 			the_content( sprintf(
 				wp_kses(
@@ -46,12 +52,6 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<div class="entry-image">
-	<?php 
-		the_post_thumbnail();
-	?>
-	</div>
 
 	<footer class="entry-footer">
 		<?php podofski_entry_footer(); ?>

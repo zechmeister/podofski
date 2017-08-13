@@ -1,7 +1,3 @@
-html{
-	font-size: 18px;
-}
-
 body{
 	max-width: 800px;
 	margin: 15px auto;
@@ -86,10 +82,10 @@ body{
 		margin: 0;
 		padding-bottom: -15px;
 		padding-right: 15px;
-		width: 500px;
-		float: left;
+		//width: 500px;
+		//float: left;
 		//max-height: 225px;
-		overflow: hidden;
+		//overflow: hidden;
 
 		p{
 			margin-bottom: 0;
@@ -100,7 +96,7 @@ body{
 		border: 7px solid $color__highlight;
 		width: 255px;
 		float: right;
-		margin-top: -86px;
+		margin: -86px 0 30px 30px;
 	}
 
 	.entry-footer .cat-links a{

@@ -956,18 +956,13 @@ object {
 # custom
 --------------------------------------------------------------*/
 /* line 1, sass/custom/_page.scss */
-html {
-  font-size: 18px;
-}
-
-/* line 5, sass/custom/_page.scss */
 body {
   max-width: 800px;
   margin: 15px auto;
   padding-left: 15px;
 }
 
-/* line 12, sass/custom/_page.scss */
+/* line 8, sass/custom/_page.scss */
 .site-title a {
   font-size: 60px;
   font-weight: lighter;
@@ -976,7 +971,7 @@ body {
   position: relative;
   color: #8adaae;
 }
-/* line 20, sass/custom/_page.scss */
+/* line 16, sass/custom/_page.scss */
 .site-title a:after {
   content: '';
   display: block;
@@ -989,22 +984,22 @@ body {
   background-repeat: no-repeat;
   background-size: 325px;
 }
-/* line 34, sass/custom/_page.scss */
+/* line 30, sass/custom/_page.scss */
 .site-title a:hover:after {
   background-image: url("img/podofski_logo_hover.png");
 }
 
-/* line 41, sass/custom/_page.scss */
+/* line 37, sass/custom/_page.scss */
 #site-navigation {
   margin: -10px 0 30px -15px;
 }
-/* line 44, sass/custom/_page.scss */
+/* line 40, sass/custom/_page.scss */
 #site-navigation li {
   margin-right: 30px;
   text-transform: uppercase;
 }
 
-/* line 50, sass/custom/_page.scss */
+/* line 46, sass/custom/_page.scss */
 .post {
   margin: 20px 0 120px 5px;
   border-left: 7px solid #d661a1;
@@ -1015,7 +1010,7 @@ body {
   display: table;
   table-layout: fixed;
 }
-/* line 59, sass/custom/_page.scss */
+/* line 55, sass/custom/_page.scss */
 .post .entry-title {
   margin: 0;
   font-size: 1.1em;
@@ -1025,7 +1020,7 @@ body {
   letter-spacing: 2px;
   color: #d661a1;
 }
-/* line 68, sass/custom/_page.scss */
+/* line 64, sass/custom/_page.scss */
 .post .entry-title a {
   font-weight: lighter;
   text-transform: uppercase;
@@ -1033,33 +1028,30 @@ body {
   letter-spacing: 2px;
   color: #d661a1;
 }
-/* line 78, sass/custom/_page.scss */
+/* line 74, sass/custom/_page.scss */
 .post .entry-meta, .post .entry-meta a {
   color: #fff;
   text-decoration: none;
   margin: 5px 0 15px;
 }
-/* line 85, sass/custom/_page.scss */
+/* line 81, sass/custom/_page.scss */
 .post .entry-content {
   margin: 0;
   padding-bottom: -15px;
   padding-right: 15px;
-  width: 500px;
-  float: left;
-  overflow: hidden;
 }
-/* line 94, sass/custom/_page.scss */
+/* line 90, sass/custom/_page.scss */
 .post .entry-content p {
   margin-bottom: 0;
 }
-/* line 99, sass/custom/_page.scss */
+/* line 95, sass/custom/_page.scss */
 .post .entry-image img {
   border: 7px solid #d661a1;
   width: 255px;
   float: right;
-  margin-top: -86px;
+  margin: -86px 0 30px 30px;
 }
-/* line 106, sass/custom/_page.scss */
+/* line 102, sass/custom/_page.scss */
 .post .entry-footer .cat-links a {
   width: 250px;
   text-align: right;
